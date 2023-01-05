@@ -1,5 +1,5 @@
 # graduation-project (YOLOX)
-The files that I modified or added a new one:
+The files that I modified from the base version or added a new file:
 1. plate.py (added)
 2. rod.py (added)
 3. latest_ckpt.pth (added)
