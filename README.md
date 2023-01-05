@@ -8,7 +8,7 @@ The files that I modified from the base version or added a new file for this pro
 4. main.py (added)
 5. radius.py (added)
 6. assets and YOLOX outputs folder (added)
-8. train_log.txt (added)
+8. train_log (detailed).txt (added)
 9. frame.jpg (added)
 10. YOLOX Linux Commands (added)
 11. voc.py (modified)
