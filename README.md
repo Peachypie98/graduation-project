@@ -5,7 +5,7 @@ The files that I modified or added a new one:
 3. latest_ckpt.pth (added)
 4. main.py (added)
 5. radius.py (added)
-6. 
+6. assets picture and YOLOX outputs (added)
 7. frame.jpg (added)
 8. YOLOX Linux Commands (added)
 9. voc.py (modified)
