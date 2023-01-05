@@ -1,4 +1,4 @@
-# graduation-project (YOLOX)
+# Graduation Project (YOLOX)
 The files that I modified from the base version or added a new file:
 1. plate.py (added)
 2. rod.py (added)
