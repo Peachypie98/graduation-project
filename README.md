@@ -1,7 +1,7 @@
 # Graduation Project (YOLOX)
 YOLOX Base Version: https://github.com/Megvii-BaseDetection/YOLOX
 
-The files that I modified from the base version or added a new file:
+The files that I modified from the base version or added a new file for this project:
 1. plate.py (added)
 2. rod.py (added)
 3. latest_ckpt.pth (added)
