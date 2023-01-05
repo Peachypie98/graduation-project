@@ -2,27 +2,27 @@
 # -*- coding:utf-8 -*-
 # Copyright (c) Megvii Inc. All rights reserved.
 
-# This file is used for package installation. Script of train/eval/export will be available.
+# This file is used for package installation and find default exp file
 
 import importlib
 import sys
 from pathlib import Path
 
-_TOOLS_PATH = Path(__file__).resolve().parent.parent.parent / "tools"
+_EXP_PATH = Path(__file__).resolve().parent.parent.parent.parent / "exps" / "default"
 
-if _TOOLS_PATH.is_dir():
+if _EXP_PATH.is_dir():
     # This is true only for in-place installation (pip install -e, setup.py develop),
     # where setup(package_dir=) does not work: https://github.com/pypa/setuptools/issues/230
 
-    class _PathFinder(importlib.abc.MetaPathFinder):
-
+    class _ExpFinder(importlib.abc.MetaPathFinder):
+        
         def find_spec(self, name, path, target=None):
-            if not name.startswith("yolox.tools."):
+            if not name.startswith("yolox.exp.default"):
                 return
             project_name = name.split(".")[-1] + ".py"
-            target_file = _TOOLS_PATH / project_name
+            target_file = _EXP_PATH / project_name
             if not target_file.is_file():
                 return
             return importlib.util.spec_from_file_location(name, target_file)
 
-    sys.meta_path.append(_PathFinder())
+    sys.meta_path.append(_ExpFinder())
