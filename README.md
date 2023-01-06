@@ -49,7 +49,7 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 ### Modified Pre-Trained Yolo-Nano Model
 Model |size |mAP<sup>val<br>0.5:0.95 | Params<br>(M) |FLOPs<br>(G)| weights |
 | ------        |:---:  |  :---:       |:---:     |:---:  | :---: |
-|[YOLOX-Nano](./exps/example/yolox_voc/yolox_voc_s.py) |640  |25.8  | 2.24M |6.93 | [github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.pth) |
+|[YOLOX-Nano](./exps/example/yolox_voc/yolox_voc_s.py) |640  |41.0  | 2.24M |6.93 | [github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.pth) |
 
 Total Pictures: 600 Pictures (7 Train : 3 Test)  
 Non TensorRT's Inference Time: 0.085s (FPS: ~5)  
