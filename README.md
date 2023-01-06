@@ -33,7 +33,7 @@ We want to extract the sprout from the picture and determine circle's radius tha
 ### Rod
 <div align="center"><img src="Results/rod_formula.png" height = "300", width = "300"></div>
 <br/>
-<div align="center"><img src="https://latex.codecogs.com/svg.image?{\color{Blue}h3&space;=&space;h1&space;&plus;&space;\frac{h1-h2}{D-R}d}" title="https://latex.codecogs.com/svg.image?{\color{Yellow}h3 = h1 + \frac{h1-h2}{D-R}d}" /></div>  
+<div align="center"><img src="https://latex.codecogs.com/svg.image?{\color{Red}h3&space;=&space;h1&space;&plus;&space;\frac{h1-h2}{D-R}d}" title="https://latex.codecogs.com/svg.image?{\color{Yellow}h3 = h1 + \frac{h1-h2}{D-R}d}" /></div>  
 Once we get the radius value, we insert it to an equation to determine h3's final height.
 <br/>
 
