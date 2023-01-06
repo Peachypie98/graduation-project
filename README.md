@@ -28,7 +28,7 @@ My graduation project is a laser-based potato sprout remover machine.
     <img width="32%" img src="Results/4.png", height = "300", width = "300"> 
     <img width="32%" img src="Results/5.png", height = "300", width = "300"> 
 </p>
-We want only to extract the sprout from the picture and we find and calculate the circle's radius that encloses the whole sprout. 
+We want to extract the sprout from the picture and determine circle's radius that encloses the whole sprout. We are able to do this by calculating the pixel starting from the center.
 
 ### Rod
 <div align="center"><img src="Results/rod_formula.png" height = "300", width = "300"></div>
