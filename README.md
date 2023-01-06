@@ -8,8 +8,6 @@ My graduation project is a laser-based potato sprout remover machine.
 * Creates an imaginary circle that surrounds on it. Once imaginary circle is created, use the radius value to determine the total distance we need to move the laser. 
 * Once the laser on the rod is at the specified location, turn on the laser and rotate the plate to begin cutting the sprout.
 
-*note: the laser we used isn't real laser since it would be dangerous.  
-
 The files that I modified from the base version or added a new file for this project:
 1. plate.py (added)
 2. rod.py (added)
