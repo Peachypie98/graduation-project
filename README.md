@@ -46,10 +46,10 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
 <div align="center">AP: 75 at 300 Epochs</div>
 
-### Modified Pre-Trained Model
+### Modified Pre-Trained Yolo-Nano Model
 Model |size |mAP<sup>val<br>0.5:0.95 | Params<br>(M) |FLOPs<br>(G)| weights |
 | ------        |:---:  |  :---:       |:---:     |:---:  | :---: |
-|[YOLOX-Nano](./exps/default/yolox_nano.py) |416  |25.8  | 0.91 |1.08 | [github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.pth) |
+|[YOLOX-Nano](./exps/example/yolox_voc/yolox_voc_s.py) |640  |25.8  | 2.24M |6.93 | [github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.pth) |
 
 Total Pictures: 600 Pictures (7 Train : 3 Test)  
 Non TensorRT's Inference Time: 0.085s (FPS: ~5)  
