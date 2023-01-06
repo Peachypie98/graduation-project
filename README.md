@@ -1,8 +1,5 @@
 # Graduation Project
-<img align = "left" img src="Results/images/4.jpg" width="250" height="300">
-<img align = "center" img src="Results/images/5.jpg" width="250" height="300">
-<img align = "center" img src="Results/images/1.jpg" width="250" height="300">
-<p align="center" width="100%">
+<p align="center" width="300%">
     <img width="30%" img src="Results/images/4.jpg"> 
     <img width="30%" img src="Results/images/5.jpg"> 
     <img width="30%" img src="Results/images/1.jpg"> 
