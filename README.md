@@ -66,7 +66,6 @@ With TensorRT, it is **2.02x faster!**
 </p>
     
 ## Codes
-<details>
 <summary>Imaginary Circle</summary>
     
 ```shell
