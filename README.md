@@ -15,6 +15,29 @@ My graduation project is a laser-based potato sprout remover machine.
 
 ## Algorithm
 #### Imaginary Circle
+<p align="center" width="100%">
+    <img width="30%" img src="Results/images/4.jpg", height = "250", width = "350"> 
+    <img width="30%" img src="Results/images/5.jpg", height = "250", width = "350"> 
+    <img width="30%" img src="Results/images/1.jpg", height = "250", width = "350"> 
+</p>
+
+#### Rod
+
+# Files Added/Modified
+### Added:
+* plate.py
+* rod.py
+* latest_ckpt.pth
+* main.py
+* radius.py
+* train_log.txt
+* YOLOX Linux Commands.txt
+### Modified:
+* voc.py
+* voc_classes.py
+* coco_classes.py
+* voc_eval.py
+* yolox_voc_s
 
 The files that I modified from the base version or added a new file for this project:
 1. plate.py (added)
