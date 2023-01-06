@@ -43,6 +43,8 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 - [ ] d = 7.8cm
 - [ ] h3's initial height is identical to h1  
 
+## Motor Operation (Jetson Nano's GPIO)
+
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
