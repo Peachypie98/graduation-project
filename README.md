@@ -21,7 +21,8 @@ My graduation project is a laser-based potato sprout remover machine.
 
 # Accuracy & TensorRT
 <div align="center"><img src="accuracy-epoch.jpg" width="350"></div>
-75AP at 300 Epochs
+<div align="center">**75AP at 300 Epochs**</div>
+
 
 # Files Added/Modified
 ### Added:
