@@ -45,7 +45,7 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 
 ## Motor Operation (Jetson Nano's GPIO)
 ### L298N Module Layout
-<p align="center"><img width="32%" img src="l298n_layout.jpeg", height = "300", width = "300">
+<p align="center"><img width="32%" img src="l298n_layout.jpg", height = "300", width = "300">
  <img width="32%" img src="motor_truth_table.jpg", height = "300", width = "400"></p>
 L298N is capable of driving two DC motors. It has a supply range of 5V to 35V and is capable of 2A continuous current per channel.  
 Moreover, the speed of a DC motor can be controlled by changing its input voltage. Thus, it is using a PWM to control the speed. 
