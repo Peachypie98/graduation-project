@@ -53,7 +53,9 @@ To enable PWM for both motors, you will need to remove the jumper of MA and MB i
 
 
 **Warning!**  
-L298N is able to receive more voltage up to 35V. However, we MUST remove the 12V regulator jumper in order to work! Otherwise, it could brick your module!
+L298N is able to receive more voltage up to 35V. However, we MUST remove the 5V regulator jumper in order to work! Otherwise, it could damage to the board!
+If the motor power supply is less than 12V, you can keep the jumper in place.
+Remember that when jumper is removed, the regulator is also disabled, thus we have to supply 5V seperately to the +5V pin. On the other hand, putting the jumper in place, 5V pin acts as the output pin, thus you can power an another board such as Arduino.
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
