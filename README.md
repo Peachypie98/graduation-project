@@ -60,9 +60,9 @@ Model |size |mAP<sup>val<br>0.5:0.95 | Params<br>(M) |FLOPs<br>(G)| weights |
 
 ### Example Outputs
 <p align="center" width="100%">
-    <img width="30%" img src="Results/images/4.jpg", height = "280", width = "300"> 
-    <img width="30%" img src="Results/images/5.jpg", height = "280", width = "300"> 
-    <img width="30%" img src="Results/images/7.jpg", height = "280", width = "300"> 
+    <img width="30%" img src="Results/images/4.jpg", height = "250", width = "350"> 
+    <img width="30%" img src="Results/images/5.jpg", height = "250", width = "350"> 
+    <img width="30%" img src="Results/images/7.jpg", height = "250", width = "350"> 
 </p>
     
 ## Codes
