@@ -45,7 +45,10 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 
 ## Motor Operation (Jetson Nano's GPIO)
 ### L298N Module Layout
-<div align="center"><img src="l298n_layout.png" height = "250", width = "500"></div>
+<p align="center" width="100%">
+    <img width="32%" img src="l298n.png", height = "300", width = "300"> 
+    <img width="32%" img src="motor_truth_table.jpg", height = "300", width = "300"> 
+</p>
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
