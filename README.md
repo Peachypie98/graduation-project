@@ -167,6 +167,7 @@ def radius(frame):
 <details>
 <summary>Rod</summary>
 ```shell
+    
 #!/usr/bin/env python3
 def h3_height(x):
     if x == 50:
