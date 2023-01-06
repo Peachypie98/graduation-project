@@ -1,5 +1,5 @@
 # Graduation Project
-<img width="30%" img src="machine_picture.jpg", height = "250", width = "350"> 
+<div align="center"><img src="machine_picture.jpg" width="350"></div>
 
 ## Introduction
 My graduation project is a laser-based potato sprout remover machine.
