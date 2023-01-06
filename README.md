@@ -59,6 +59,7 @@ Remember that when jumper is removed, the regulator is also disabled, thus we ha
 
 ### GPIO (General Purpose Input/Output)
 <div align="center"><img src="gpio_layout.jpg" width="350"></div>
+Jetson Nano has total of 40 pins and each pin has their own purpose. These pins are similar to the Rasberry PI, however, Jetson Nano only has 2 pins that has PWM capabilities. The pins we used are 4,5,32,33,35,36,37,38. 4,5 pins are used to supply power to L298N board, 33,35,37 pins are used to control 1st motor, the rest are used for controlling 2nd motor. To actually run the motor, we need to make sure to import RPi.GPIO as GPIO in the beginning of the code.
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
@@ -208,7 +209,7 @@ def h3_height(x):
 <summary>Main</summary>
 
 ```shell 
-1. [final.py](./tools/final.py)
+Check out final.py in tools folder
 ```
 </details>
                          
