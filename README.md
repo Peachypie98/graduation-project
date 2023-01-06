@@ -28,7 +28,6 @@ My graduation project is a laser-based potato sprout remover machine.
     <img width="32%" img src="Results/4.png", height = "250", width = "350"> 
     <img width="32%" img src="Results/5.png", height = "250", width = "350"> 
 </p>
-*for Imaginary Circle's code, check out radius.py*
 
 ### Rod
 <div align="center"><img src="Results/rod_formula.png" height = "300", width = "300"></div>
@@ -36,7 +35,6 @@ My graduation project is a laser-based potato sprout remover machine.
 <div align="center"><img src="https://latex.codecogs.com/svg.image?{\color{Yellow}h3&space;=&space;h1&space;&plus;&space;\frac{h1-h2}{D-R}d}" title="https://latex.codecogs.com/svg.image?{\color{Yellow}h3 = h1 + \frac{h1-h2}{D-R}d}" /></div>  
 Once we get the radius value, we insert it to an equation to determine h3's final height.
 <br/>
-for rod's code, check out [main.py](./tools/main.py)
 
 #### Pre-determined settings:
 - [ ] h1 = 12.4cm
@@ -55,7 +53,7 @@ Model |size |mAP<sup>val<br>0.5:0.95 | Params<br>(M) |FLOPs<br>(G)| weights |
 | ------        |:---:  |  :---:       |:---:     |:---:  | :---: |
 |[YOLOX-Nano](./exps/example/yolox_voc/yolox_voc_s.py) |640  |41.0  | 2.24M |6.93 | [latest_ckpt.pth](./latest_ckpt.pth) |
 
-Trained 600 Pictures (7 Train : 3 Test) with batch size of 32 and FP16
+Trained 600 Pictures (7 Train : 3 Test) with batch size of 32 and FP16 using Google Colab
 Non TensorRT's Inference Time: 0.085s (FPS: ~5)  
 TensorRT's Inference Time: 0.042s (FPS: ~10)  
 With TensorRT, it is **2.02x faster!** 
@@ -66,7 +64,115 @@ With TensorRT, it is **2.02x faster!**
     <img width="30%" img src="Results/images/5.jpg", height = "280", width = "300"> 
     <img width="30%" img src="Results/images/7.jpg", height = "280", width = "300"> 
 </p>
+    
+## Codes
+<details>
+<summary>Imaginary Circle</summary>
+```shell
+#!/usr/bin/env python3
+import numpy as np
+import cv2 as cv
 
+def radius(frame):
+    image = frame
+    image = cv.cvtColor(image, cv.COLOR_BGR2RGB)
+
+    for i in range(480):
+        for j in range(640):
+                if int(image[i,j,0])>41 and int(image[i,j,1])>45 and int(image[i,j,2])>14:
+                    image[i,j,0] = 200; image[i,j,1] = 200; image[i,j,2] = 200
+
+    # convert image to canny
+    edges = cv.Canny(image, 30, 100)
+    edges = np.array(edges)
+
+    # crop image to 100-100
+    image = edges[190:290, 270:370]
+
+    a, b, c, d = [0, 0], [0, 0], [0, 0], [0, 0]
+
+    # algorithm for finding radius 1
+    for j in range(83):
+        if j>14:
+            for i in range(83):        
+                if image[i,j] == 255:
+                    a = [i,j]  
+                    break
+                else:
+                    continue            
+            if a!=[0,0]:
+                break
+            else:
+                continue
+        else:
+            continue
+
+
+    for j in range(83):
+        if j>12:
+            for i in range(83):        
+                if image[i,82-j] == 255:
+                    c = [i,82-j]  
+                    break
+                else:
+                    continue            
+            if c!=[0,0]:
+                break
+            else:
+                continue
+        else:
+            continue
+
+
+    for i in range(83):
+        if i>25:
+            for j in range(83):       
+                if image[i,j] == 255:
+                    d = [i,j]  
+                    break
+                else:
+                    continue            
+            if d!=[0,0]:
+                break
+            else:
+                continue
+        else:
+            continue
+
+    for i in range(83):
+        for j in range(83):
+        
+            if image[82-i,j] == 255:
+                b = [82-i,j]  
+                break
+            else:
+                continue            
+        if b!=[0,0]:
+            break
+        else:
+            continue
+
+    # algorithm for finding radius 2
+    #a = [a[0]+190, a[1]+270]
+    #b = [b[0]+190, b[1]+270]
+    #c = [c[0]+190, c[1]+270]
+    #d = [d[0]+190, d[1]+270]
+    
+    O = [(b[0] + d[0])/2, (a[1] + c[1]) / 2]
+    distance = []
+    distance.append(np.sqrt((a[0] - O[0]) ** 2 + (a[1] - O[1]) ** 2))
+    distance.append(np.sqrt((b[0] - O[0]) ** 2 + (b[1] - O[1]) ** 2))
+    distance.append(np.sqrt((c[0] - O[0]) ** 2 + (c[1] - O[1]) ** 2))
+    distance.append(np.sqrt((d[0] - O[0]) ** 2 + (d[1] - O[1]) ** 2))
+
+    # setting up appropriate radius
+    #if max(distance) < 50:
+    R = 0.94*max(distance)+abs((max(O)-50)/8)
+    #else:
+        #R = 50
+
+    return 
+```
 
 ## Files Added/Modified
 ### Added:
