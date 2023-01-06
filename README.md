@@ -36,6 +36,7 @@ My graduation project is a laser-based potato sprout remover machine.
 <div align="center"><img src="https://latex.codecogs.com/svg.image?{\color{Yellow}h3&space;=&space;h1&space;&plus;&space;\frac{h1-h2}{D-R}d}" title="https://latex.codecogs.com/svg.image?{\color{Yellow}h3 = h1 + \frac{h1-h2}{D-R}d}" /></div>  
 Once we get the radius value, we insert it to an equation to determine h3's final height.
 <br/>
+for rod's code, check out [main.py](./tools/main.py)
 
 #### Pre-determined settings:
 - [ ] h1 = 12.4cm
@@ -43,7 +44,7 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 - [ ] D = 12.6cm
 - [ ] d = 7.8cm
 - [ ] h3's initial height is identical to h1  
-*for rod's code, check out main.py*
+
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
