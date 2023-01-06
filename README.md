@@ -7,6 +7,7 @@ My graduation project is a laser-based potato sprout remover machine.
 1. Place a camera that shoot straight down a potato's sprout on top of the plate. 
 2. Creates an imaginary circle that surrounds on it. Once imaginary circle is created, use the radius value to determine the total distance we need to move the laser. 
 3. Once the laser on the rod is at the specified location, turn on the laser and rotate the plate to begin cutting the sprout.
+
 *note: the laser we used isn't real laser since it would be dangerous.  
 
 The files that I modified from the base version or added a new file for this project:
