@@ -167,7 +167,6 @@ def radius(frame):
 <details>
 <summary>Rod</summary>
 ```shell
-    
 #!/usr/bin/env python3
 def h3_height(x):
     if x == 50:
@@ -185,7 +184,7 @@ def h3_height(x):
     h3 = round(full_h3 - 7.4, 1)
     
     return h3
- ```                       
+```                       
 </details>
 
                            
