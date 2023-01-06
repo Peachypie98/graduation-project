@@ -53,7 +53,7 @@ Model |size |mAP<sup>val<br>0.5:0.95 | Params<br>(M) |FLOPs<br>(G)| weights |
 | ------        |:---:  |  :---:       |:---:     |:---:  | :---: |
 |[YOLOX-Nano](./exps/example/yolox_voc/yolox_voc_s.py) |640  |41.0  | 2.24M |6.93 | [latest_ckpt.pth](./latest_ckpt.pth) |
 
-Trained 600 Pictures (7 Train : 3 Test) with batch size of 32 and FP16 using Google Colab
+Trained 600 Pictures (7 Train : 3 Test) with batch size of 32 and FP16 using Google Colab  
 Non TensorRT's Inference Time: 0.085s (FPS: ~5)  
 TensorRT's Inference Time: 0.042s (FPS: ~10)  
 With TensorRT, it is **2.02x faster!** 
