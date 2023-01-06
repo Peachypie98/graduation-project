@@ -166,9 +166,8 @@ def radius(frame):
     
 <details>
 <summary>Rod</summary>
-```
-    shell
     
+```shell 
     #!/usr/bin/env python3
     def h3_height(x):
         if x == 50:
@@ -188,8 +187,7 @@ def radius(frame):
         return h3
 ```                       
 </details>
-
-<br/>                          
+                         
 ## Files Added/Modified
 ### Added:
 * plate.py
