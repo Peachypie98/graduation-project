@@ -44,7 +44,8 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 - [ ] h3's initial height is identical to h1  
 
 ## Motor Operation (Jetson Nano's GPIO)
-
+### L298N Module Layout
+<div align="center"><img src="l298n_layout.png" height = "300", width = "300"></div>
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
