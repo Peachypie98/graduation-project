@@ -19,6 +19,10 @@ My graduation project is a laser-based potato sprout remover machine.
 
 #### Rod
 
+# Accuracy & TensorRT
+<div align="center"><img src="accuracy-epoch.jpg" width="350"></div>
+75AP at 300 Epochs
+
 # Files Added/Modified
 ### Added:
 * plate.py
