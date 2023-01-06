@@ -21,21 +21,21 @@ My graduation project is a laser-based potato sprout remover machine.
 * Line Wires
 
 ## Algorithm
-#### Imaginary Circle
+### Imaginary Circle
 <p align="center" width="100%">
     <img width="30%" img src="Results/3.png", height = "250", width = "350"> 
     <img width="30%" img src="Results/4.png", height = "250", width = "350"> 
     <img width="30%" img src="Results/5.png", height = "250", width = "350"> 
 </p>
 
-#### Rod
+### Rod
 
-# Accuracy & TensorRT
+## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg"></div>
 <div align="center">AP:75 at 300 Epochs</div>
 
 
-# Files Added/Modified
+## Files Added/Modified
 ### Added:
 * plate.py
 * rod.py
