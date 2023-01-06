@@ -4,7 +4,7 @@
 ## Introduction
 My graduation project is a laser-based potato sprout remover machine.
 
-#### How it works?
+### How it works?
 * Place a camera that shoot straight down a potato's sprout on top of the plate. 
 * Creates an imaginary circle that surrounds on it. Once imaginary circle is created, use its radius value to determine the total distance we need to move the laser. 
 * Once the laser on the rod is at the specified location, turn on the laser and rotate the plate to begin cutting the sprout.
