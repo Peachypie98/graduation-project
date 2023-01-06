@@ -51,7 +51,7 @@ Non TensorRT's Inference Time: 0.085s (FPS: ~5)
 TensorRT's Inference Time: 0.042s (FPS: ~10)  
 With TensorRT, it is **2.02x faster!** 
 
-#### Example Outputs
+### Example Outputs
 <p align="center" width="100%">
     <img width="30%" img src="Results/images/4.jpg", height = "250", width = "350"> 
     <img width="30%" img src="Results/images/5.jpg", height = "250", width = "350"> 
