@@ -12,7 +12,7 @@ My graduation project is a laser-based potato sprout remover machine.
 ## Materials Used
 * Jetson Nano 4GB
 * 720p Camera
-* 3W Motors (3x)
+* 3V Motors (3x)
 * AA Battery (10x)
 * L298N Module
 * M6 Nut (2x)
