@@ -53,7 +53,7 @@ To enable PWM for both motors, you will need to remove the jumper of MA and MB i
 
 
 **Warning!**  
-L298N is able to receive more voltage up to 35V. However, we MUST remove the 5V regulator jumper in order to work! Otherwise, it could brick your module!
+L298N is able to receive more voltage up to 35V. However, we MUST remove the 12V regulator jumper in order to work! Otherwise, it could brick your module!
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
