@@ -40,7 +40,7 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 - [ ] h2 = 7cm (potato's height) + 5.3cm = 12.3cm
 - [ ] D = 12.6cm
 - [ ] d = 7.8cm
-- [ ] **h3's initial height is identical to h1"
+- [ ] h3's initial height is identical to h1
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
