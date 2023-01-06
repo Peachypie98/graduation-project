@@ -47,11 +47,10 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 ### L298N Module Layout
 <p align="center"><img width="32%" img src="l298n_layout.jpg", height = "300", width = "300">
  <img width="32%" img src="motor_truth_table.jpg", height = "300", width = "400"></p>
-L298N is capable of driving two DC motors. It has a supply range of 5V to 35V and is capable of 2A continuous current per channel.  
+* L298N is capable of driving two DC motors. It has a supply range of 5V to 35V and is capable of 2A continuous current per channel.  
 Moreover, the speed of a DC motor can be controlled by changing its input voltage. Thus, it is using a PWM to control the speed. 
-To enable PWM for both motors, you will need to remove the jumper of MA and MB in the layout I provided to you. <br/> 
- 
-L298N is able to receive more voltage up to 35V. However, we **MUST** remove the 5V regulator jumper in order to work! Otherwise, it could damage to the board!
+To enable PWM for both motors, you will need to remove the jumper of MA and MB in the layout I provided to you.  
+* L298N is able to receive more voltage up to 35V. However, we **MUST** remove the 5V regulator jumper in order to work! Otherwise, it could damage to the board!
 If the motor power supply is less than 12V, you can keep the jumper in place.
 Remember that when jumper is removed, the regulator is also disabled, thus we have to supply 5V seperately to the +5V pin. On the other hand, putting the jumper in place, 5V pin acts as the output pin, thus you can power an another board such as Arduino.
 
