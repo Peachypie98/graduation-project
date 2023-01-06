@@ -1,4 +1,4 @@
-# Graduation Project (YOLOX)
+# Graduation Project
 YOLOX Base Version: https://github.com/Megvii-BaseDetection/YOLOX
 
 ## Introduction
