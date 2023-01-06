@@ -53,9 +53,9 @@ With TensorRT, it is **2.02x faster!**
 
 ### Example Outputs
 <p align="center" width="100%">
-    <img width="30%" img src="Results/images/4.jpg", height = "300", width = "300"> 
-    <img width="30%" img src="Results/images/5.jpg", height = "300", width = "300"> 
-    <img width="30%" img src="Results/images/7.jpg", height = "300", width = "300"> 
+    <img width="30%" img src="Results/images/4.jpg", height = "280", width = "300"> 
+    <img width="30%" img src="Results/images/5.jpg", height = "280", width = "300"> 
+    <img width="30%" img src="Results/images/7.jpg", height = "280", width = "300"> 
 </p>
 
 
