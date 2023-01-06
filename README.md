@@ -69,6 +69,7 @@ With TensorRT, it is **2.02x faster!**
 <details>
 <summary>Imaginary Circle</summary>
 ```shell
+    
 #!/usr/bin/env python3
 import numpy as np
 import cv2 as cv
@@ -173,6 +174,7 @@ def radius(frame):
 
     return 
 ```
+                           
 </details>
 
                            
