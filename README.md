@@ -173,7 +173,9 @@ def radius(frame):
 
     return 
 ```
+</details>
 
+                           
 ## Files Added/Modified
 ### Added:
 * plate.py
