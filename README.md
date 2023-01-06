@@ -198,8 +198,8 @@ def h3_height(x):
                          
 ## Files Added/Modified
 ### Added:
-* plate.py
-* rod.py
+* plate.py (testing purpose only)
+* rod.py (testing purpose only)
 * latest_ckpt.pth
 * main.py
 * radius.py
