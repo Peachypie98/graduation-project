@@ -9,7 +9,7 @@ My graduation project is a laser-based potato sprout remover machine.
 * Creates an imaginary circle that surrounds on it. Once imaginary circle is created, use its radius value to determine the total distance we need to move the laser. 
 * Once the laser on the rod is at the specified location, turn on the laser and rotate the plate to begin cutting the sprout.
 
-# Materials Used
+## Materials Used
 * Jetson Nano 4GB
 * 720p Camera
 * 3W Motors (3x)
