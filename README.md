@@ -51,7 +51,7 @@ L298N is capable of driving two DC motors. It has a supply range of 5V to 35V an
 Moreover, the speed of a DC motor can be controlled by changing its input voltage. Thus, it is using a PWM to control the speed. 
 To enable PWM for both motors, you will need to remove the jumper of MA and MB in the layout I provided to you.
 
-**Warning**
+**Warning!**  
 L298N is able to receive more voltage up to 35V. However, we MUST remove the "ATIVA 5V" jumper in order to work! Otherwise, it could brick your module!
 
 ## Accuracy & TensorRT
