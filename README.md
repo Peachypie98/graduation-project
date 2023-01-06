@@ -47,7 +47,7 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 ### L298N Module Layout
 <p align="center" width="100%">
     <img width="32%" img src="l298n.png", height = "300", width = "300"> 
-    <img width="32%" img src="motor_truth_table.jpg", height = "300", width = "300"> 
+    <img width="32%" img src="motor_truth_table.jpg", height = "300", width = "400"> 
 </p>
 
 ## Accuracy & TensorRT
