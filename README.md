@@ -79,5 +79,3 @@ With TensorRT, it is **2.02x faster!**
 * coco_classes.py
 * voc_eval.py
 * yolox_voc_s
-
-YOLOX Base Version: https://github.com/Megvii-BaseDetection/YOLOX
