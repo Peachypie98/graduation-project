@@ -29,11 +29,11 @@ My graduation project is a laser-based potato sprout remover machine.
 </p>
 
 ### Rod
+<div align="center"><img src="Results/rod_formula.png" height = "300", width = "300"></div>
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
 <div align="center">AP: 75 at 300 Epochs</div>
-<div align="center"><img src="Results/rod_formula.png" height = "300", width = "300"></div>
 
 Total Pictures: 600 Pictures (7:3, Train:Test)  
 Non TensorRT's Inference Time: 0.085s (FPS: ~6.5)  
