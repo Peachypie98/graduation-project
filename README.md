@@ -30,6 +30,8 @@ My graduation project is a laser-based potato sprout remover machine.
 
 ### Rod
 <div align="center"><img src="Results/rod_formula.png" height = "300", width = "300"></div>
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
