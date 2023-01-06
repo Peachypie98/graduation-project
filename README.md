@@ -34,7 +34,7 @@ My graduation project is a laser-based potato sprout remover machine.
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
 <div align="center">AP: 75 at 300 Epochs</div>
 
-Total Pictures: 600 Pictures (7:3, Train:Test)
+Total Pictures: 600 Pictures (7:3, Train:Test)  
 Non TensorRT's Inference Time: 0.085s (FPS: ~6.5)  
 TensorRT's Inference Time: 0.042s (FPS: ~10)  
 With TensorRT, it is **2.02x faster!**  
