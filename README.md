@@ -27,7 +27,7 @@ My graduation project is a laser-based potato sprout remover machine.
     <img width="32%" img src="Results/4.png", height = "250", width = "350"> 
     <img width="32%" img src="Results/5.png", height = "250", width = "350"> 
 </p>
-*for Imaginary Circle's code, check out radius.py
+*for Imaginary Circle's code, check out radius.py*
 
 ### Rod
 <div align="center"><img src="Results/rod_formula.png" height = "300", width = "300"></div>
@@ -42,7 +42,7 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 - [ ] D = 12.6cm
 - [ ] d = 7.8cm
 - [ ] h3's initial height is identical to h1
-*for rod's code, check out main.py
+*for rod's code, check out main.py*
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
