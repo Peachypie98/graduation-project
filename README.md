@@ -1,7 +1,7 @@
 # Graduation Project
-<div align="center"><img src="Results/images/4.jpg" width="350"></div>
-<div align="center"><img src="Results/images/5.jpg" width="350"></div>
-<div align="center"><img src="Results/images/7.jpg" width="350"></div>
+<img src="Results/images/4.jpg" width="350">
+<img src="Results/images/5.jpg" width="350">
+<img src="Results/images/7.jpg" width="350">
 
 ## Introduction
 My graduation project is a laser-based potato sprout remover machine.
