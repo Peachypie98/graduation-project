@@ -1,5 +1,6 @@
 # Graduation Project
-YOLOX Base Version: https://github.com/Megvii-BaseDetection/YOLOX
+<div align="center"><img src="assets/1.jpg" width="350"></div>
+
 
 ## Introduction
 My graduation project is a laser-based potato sprout remover machine.
@@ -23,5 +24,6 @@ The files that I modified from the base version or added a new file for this pro
 13. coco_classes.py (modified)
 14. voc_eval.py (modified)
 15. yolox_voc_s (modified)
+16. YOLOX Base Version: https://github.com/Megvii-BaseDetection/YOLOX
 
 * will update README soon or later
