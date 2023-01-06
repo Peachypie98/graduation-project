@@ -30,7 +30,7 @@ My graduation project is a laser-based potato sprout remover machine.
 
 ### Rod
 <div align="center"><img src="Results/rod_formula.png" height = "300", width = "300"></div>
-$\alpha$
+<img src="https://latex.codecogs.com/svg.image?h3&space;=&space;h1&space;&plus;&space;\frac{h1-h2}{D-R}d" title="https://latex.codecogs.com/svg.image?h3 = h1 + \frac{h1-h2}{D-R}d" />
 
 
 ## Accuracy & TensorRT
