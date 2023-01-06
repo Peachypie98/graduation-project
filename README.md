@@ -1,8 +1,8 @@
 # Graduation Project
 <p align="center" width="300%">
-    <img width="100%" img src="Results/images/4.jpg"> 
-    <img width="100%" img src="Results/images/5.jpg"> 
-    <img width="190%" img src="Results/images/1.jpg"> 
+    <img width="50%" img src="Results/images/4.jpg"> 
+    <img width="50%" img src="Results/images/5.jpg"> 
+    <img width="50%" img src="Results/images/1.jpg"> 
 </p>
 
 ## Introduction
