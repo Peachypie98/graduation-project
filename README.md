@@ -5,7 +5,7 @@ YOLOX Base Version: https://github.com/Megvii-BaseDetection/YOLOX
 My graduation project is a laser-based potato sprout remover machine.
 #### How it works?
 * Place a camera that shoot straight down a potato's sprout on top of the plate. 
-* Creates an imaginary circle that surrounds on it. Once imaginary circle is created, use the radius value to determine the total distance we need to move the laser. 
+* Creates an imaginary circle that surrounds on it. Once imaginary circle is created, use it's radius value to determine the total distance we need to move the laser. 
 * Once the laser on the rod is at the specified location, turn on the laser and rotate the plate to begin cutting the sprout.
 
 The files that I modified from the base version or added a new file for this project:
