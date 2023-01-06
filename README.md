@@ -31,7 +31,13 @@ My graduation project is a laser-based potato sprout remover machine.
 ### Rod
 <div align="center"><img src="Results/rod_formula.png" height = "300", width = "300"></div>
 <img src="https://latex.codecogs.com/svg.image?h3&space;=&space;h1&space;&plus;&space;\frac{h1-h2}{D-R}d" title="https://latex.codecogs.com/svg.image?h3 = h1 + \frac{h1-h2}{D-R}d" />
-
+Once we get the radius value, we insert it to an equation to determine h3's final height. 
+Pre-determined settings:
+1. h1 = 12.4cm
+2. h2 = 7cm (potato's height) + 5.3cm = 12.3cm
+3. D = 12.6cm
+4. d = 7.8cm
+5. **h3's initial height is identical to h1"
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
