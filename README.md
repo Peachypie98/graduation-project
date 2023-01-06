@@ -23,9 +23,9 @@ My graduation project is a laser-based potato sprout remover machine.
 ## Algorithm
 ### Imaginary Circle
 <p align="center" width="100%">
-    <img width="30%" img src="Results/3.png", height = "250", width = "350"> 
-    <img width="30%" img src="Results/4.png", height = "250", width = "350"> 
-    <img width="30%" img src="Results/5.png", height = "250", width = "350"> 
+    <img width="32%" img src="Results/3.png", height = "250", width = "350"> 
+    <img width="32%" img src="Results/4.png", height = "250", width = "350"> 
+    <img width="32%" img src="Results/5.png", height = "250", width = "350"> 
 </p>
 
 ### Rod
