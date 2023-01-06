@@ -22,7 +22,7 @@ My graduation project is a laser-based potato sprout remover machine.
 * Line Wires
 
 ## Algorithm
-### Imaginary Circle
+### Radius
 <p align="center" width="100%">
     <img width="32%" img src="Results/3.png", height = "250", width = "350"> 
     <img width="32%" img src="Results/4.png", height = "250", width = "350"> 
@@ -67,7 +67,7 @@ With TensorRT, it is **2.02x faster!**
     
 ## Codes
 <details>
-<summary>Imaginary Circle</summary>
+<summary>Radius</summary>
     
 ```shell
 #!/usr/bin/env python3
@@ -167,23 +167,23 @@ def radius(frame):
 <details>
 <summary>Rod</summary>
 ```shell
-#!/usr/bin/env python3
-def h3_height(x):
-    if x == 50:
-        R = 2
-    else:
-        x = round(x,1)
-        R = (2*x)/50 
+    #!/usr/bin/env python3
+    def h3_height(x):
+        if x == 50:
+            R = 2
+        else:
+            x = round(x,1)
+            R = (2*x)/50 
     
-    h1 = 19.8
-    h2 = 5.3 + 5.4
-    d = 7.8
-    D = 12.6
+        h1 = 19.8
+        h2 = 5.3 + 5.4
+        d = 7.8
+        D = 12.6
 
-    full_h3 = h1 + ((h1-h2)*d/(D-R))
-    h3 = round(full_h3 - 7.4, 1)
+        full_h3 = h1 + ((h1-h2)*d/(D-R))
+        h3 = round(full_h3 - 7.4, 1)
     
-    return h3
+        return h3
 ```                       
 </details>
 
