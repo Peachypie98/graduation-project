@@ -1,5 +1,5 @@
 # Graduation Project
-<img src="Results/images/4.jpg" width="350">
+<img align = "right" img src="Results/images/4.jpg" width="350">
 <img src="Results/images/5.jpg" width="350">
 <img src="Results/images/7.jpg" width="350">
 
