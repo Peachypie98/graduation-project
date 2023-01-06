@@ -36,7 +36,7 @@ My graduation project is a laser-based potato sprout remover machine.
 
 Non TensorRT's Inference Time: 0.085s (FPS: ~6.5)  
 TensorRT's Inference Time: 0.042s (FPS: ~10)  
-With TensorRT, it is 2.02x faster!  
+With TensorRT, it is **2.02x faster!**  
 
 ## Files Added/Modified
 ### Added:
