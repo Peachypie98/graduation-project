@@ -68,16 +68,14 @@ With TensorRT, it is **2.02x faster!**
 ## Codes
 <details>
 <summary>Imaginary Circle</summary>
-```shell
     
+```shell
 #!/usr/bin/env python3
 import numpy as np
 import cv2 as cv
-
 def radius(frame):
     image = frame
     image = cv.cvtColor(image, cv.COLOR_BGR2RGB)
-
     for i in range(480):
         for j in range(640):
                 if int(image[i,j,0])>41 and int(image[i,j,1])>45 and int(image[i,j,2])>14:
@@ -152,12 +150,6 @@ def radius(frame):
             break
         else:
             continue
-
-    # algorithm for finding radius 2
-    #a = [a[0]+190, a[1]+270]
-    #b = [b[0]+190, b[1]+270]
-    #c = [c[0]+190, c[1]+270]
-    #d = [d[0]+190, d[1]+270]
     
     O = [(b[0] + d[0])/2, (a[1] + c[1]) / 2]
     distance = []
@@ -167,14 +159,9 @@ def radius(frame):
     distance.append(np.sqrt((d[0] - O[0]) ** 2 + (d[1] - O[1]) ** 2))
 
     # setting up appropriate radius
-    #if max(distance) < 50:
     R = 0.94*max(distance)+abs((max(O)-50)/8)
-    #else:
-        #R = 50
-
     return 
-```
-                           
+```                       
 </details>
 
                            
