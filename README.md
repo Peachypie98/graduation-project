@@ -50,9 +50,9 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 L298N is capable of driving two DC motors. It has a supply range of 5V to 35V and is capable of 2A continuous current per channel.  
 Moreover, the speed of a DC motor can be controlled by changing its input voltage. Thus, it is using a PWM to control the speed. 
 To enable PWM for both motors, you will need to remove the jumper of MA and MB in the layout I provided to you.
-
+<br/>
 **Warning!**  
-L298N is able to receive more voltage up to 35V. However, we MUST remove the "ATIVA 5V" jumper in order to work! Otherwise, it could brick your module!
+L298N is able to receive more voltage up to 35V. However, we MUST remove the 5V regulator jumper in order to work! Otherwise, it could brick your module!
 
 ## Accuracy & TensorRT
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
