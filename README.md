@@ -29,7 +29,7 @@ My graduation project is a laser-based potato sprout remover machine.
 </p>
 
 ### Rod
-<div align="center"><img src="Results/rod_formula.png" height = "300", width = "300"></div>
+<div align="center"><img src="Results/rod_formula.png" height = "300", width = "300"></div>  
 <div align="center"><img src="https://latex.codecogs.com/svg.image?{\color{Yellow}h3&space;=&space;h1&space;&plus;&space;\frac{h1-h2}{D-R}d}" title="https://latex.codecogs.com/svg.image?{\color{Yellow}h3 = h1 + \frac{h1-h2}{D-R}d}" /></div>  
 Once we get the radius value, we insert it to an equation to determine h3's final height.  
 Pre-determined settings:  
