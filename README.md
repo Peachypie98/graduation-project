@@ -49,9 +49,9 @@ Once we get the radius value, we insert it to an equation to determine h3's fina
 ### Modified Pre-Trained Yolo-Nano Model
 Model |size |mAP<sup>val<br>0.5:0.95 | Params<br>(M) |FLOPs<br>(G)| weights |
 | ------        |:---:  |  :---:       |:---:     |:---:  | :---: |
-|[YOLOX-Nano](./exps/example/yolox_voc/yolox_voc_s.py) |640  |41.0  | 2.24M |6.93 | [latest_ckpt.pth](./latest.ckpt.pth) |
+|[YOLOX-Nano](./exps/example/yolox_voc/yolox_voc_s.py) |640  |41.0  | 2.24M |6.93 | [latest_ckpt.pth](./latest_ckpt.pth) |
 
-Total Pictures: 600 Pictures (7 Train : 3 Test)  
+Trained 600 Pictures (7 Train : 3 Test) with batch size of 32 and FP16
 Non TensorRT's Inference Time: 0.085s (FPS: ~5)  
 TensorRT's Inference Time: 0.042s (FPS: ~10)  
 With TensorRT, it is **2.02x faster!** 
