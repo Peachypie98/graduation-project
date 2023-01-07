@@ -944,6 +944,7 @@ if __name__ == "__main__":
 * rod.py (testing purpose only)
 * latest_ckpt.pth
 * main.py
+* final.py
 * radius.py
 * train_log.txt
 * YOLOX Linux Commands.txt
