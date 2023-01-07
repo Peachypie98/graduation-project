@@ -952,4 +952,4 @@ if __name__ == "__main__":
 * voc_classes.py
 * coco_classes.py
 * voc_eval.py
-* yolox_voc_s
+* yolox_voc_s.py
