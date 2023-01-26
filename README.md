@@ -67,7 +67,7 @@ Jetson Nano has total of 40 pins and each pin has their own purpose. These pins 
 <div align="center"><img src="Results/accuracy-epoch.jpg" height = "300", width = "800"></div>
 <div align="center">AP: 0.75 at 300 Epochs</div>
 
-### Modified Pre-Trained YoloX-Nano Model
+### Modified Pre-Trained YOLOX-Nano Model
 Model |size |mAP<sup>val<br>0.5:0.95 | Params<br>(M) |FLOPs<br>(G)| weights |
 | ------        |:---:  |  :---:       |:---:     |:---:  | :---: |
 |[YOLOX-Nano](./exps/example/yolox_voc/yolox_voc_s.py) |640  |41.0  |2.24M |6.93 |[latest_ckpt.pth](./latest_ckpt.pth) |
