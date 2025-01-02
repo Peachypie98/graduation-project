@@ -1,5 +1,6 @@
 # Graduation Project
 <div align="center"><img src="machine_picture.jpg" width="350"></div>
+<div align="center"><img src="demo.gif"width="426" height="240"/></div>
 
 ## Introduction
 My graduation project is a laser-based potato sprout remover machine.
